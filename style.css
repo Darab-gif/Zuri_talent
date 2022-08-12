@@ -290,7 +290,8 @@ body {
   z-index: -999;
 }
 
-.service-card:hover .service-card > p {
+.service-card:hover,
+.service-card:hover p {
   background-color: #000;
   border-bottom-right-radius: 10px;
   color: #fff;
