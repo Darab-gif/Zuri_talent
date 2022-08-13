@@ -446,14 +446,14 @@ body {
   .service-container {
     display: grid;
     grid-template-columns: none;
-    margin-left: 8%;
+    margin-left: 7%;
     margin-top: 20%;
     row-gap: 3%;
   }
   .service-box {
     display: grid;
     grid-template-columns: none;
-    margin-left: 4%;
+    margin-left: 7%;
     margin-top: 18%;
   }
   .service-card {
