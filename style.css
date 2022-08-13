@@ -62,6 +62,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .header {
     height: 11%;
   }
@@ -73,10 +76,9 @@ body {
     width: 8rem;
   }
   .nav-list button {
-    padding: 8px 40px;
-    width: 98%;
+    padding: 5px 35px;
     font-size: 17px;
-    margin-left: 30%;
+    margin-left: 15%;
   }
   .nav-list li {
     display: none;
@@ -155,17 +157,19 @@ body {
     flex-direction: column;
   }
   .hero-header {
-    width: 100%;
-    margin-top: 3%;
+    margin-top: 15%;
     margin-left: 3%;
+    width: 90%;
   }
   .hero-header .hero-title {
+    margin-left: 12%;
+    font-size: 35px;
     text-align: center;
-    margin-left: -8%;
+    width: 80%;
   }
   .hero-header img {
-    top: 22%;
-    left: 64%;
+    top: 26.5%;
+    left: 60%;
   }
   .hero-header p {
     text-align: center;
@@ -177,6 +181,7 @@ body {
   .hero-btn {
     display: flex;
     width: 90%;
+    margin-left: 4%;
   }
   .btn1,
   .btn2 {
@@ -185,6 +190,7 @@ body {
   }
   .hero-img {
     margin-top: 15%;
+    margin-left: 4%;
   }
   .hero-img img {
     width: 20rem;
@@ -440,7 +446,7 @@ body {
   .service-container {
     display: grid;
     grid-template-columns: none;
-    margin-left: 4%;
+    margin-left: 8%;
     margin-top: 20%;
     row-gap: 3%;
   }
